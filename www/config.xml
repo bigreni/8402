@@ -4,8 +4,8 @@
     <description>
         2048 game.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="santhanakrishnan.sai@gmail.com" href="#">
+        Sai Santhanakrishnan
     </author>
     <content src="index.html" />
     <preference name="permissions" value="none" />

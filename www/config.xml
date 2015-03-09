@@ -32,10 +32,10 @@ xmlns:gap="http://phonegap.com/ns/1.0"
     <gap:plugin name="org.apache.cordova.device-motion" />
     <gap:plugin name="com.google.cordova.admob" source="plugins.cordova.io" />
     <icon src="2048_Icon.png" />
-    <icon gap:platform="android" gap:qualifier="ldpi" src="res/icon/android/2048 Icon.png" />
-    <icon gap:platform="android" gap:qualifier="mdpi" src="res/icon/android/2048 Icon.png" />
-    <icon gap:platform="android" gap:qualifier="hdpi" src="res/icon/android/2048 Icon.png" />
-    <icon gap:platform="android" gap:qualifier="xhdpi" src="res/icon/android/2048 Icon.png" />
+    <icon gap:platform="android" gap:qualifier="ldpi" src="res/icon/android/2048-Icon-32.png" />
+    <icon gap:platform="android" gap:qualifier="mdpi" src="res/icon/android/2048-Icon-48.png" />
+    <icon gap:platform="android" gap:qualifier="hdpi" src="res/icon/android/2048-Icon-72.png" />
+    <icon gap:platform="android" gap:qualifier="xhdpi" src="res/icon/android/2048-Icon-96.png" />
     <icon gap:platform="blackberry" src="res/icon/blackberry/icon-80.png" />
     <icon gap:platform="blackberry" gap:state="hover" src="res/icon/blackberry/icon-80.png" />
     <icon gap:platform="ios" height="57" src="res/icon/ios/icon-57.png" width="57" />

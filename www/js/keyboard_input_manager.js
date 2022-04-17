@@ -73,8 +73,9 @@ KeyboardInputManager.prototype.listen = function () {
   if (/(android)/i.test(navigator.userAgent)) {
       admobid = { // for Android
           banner: 'ca-app-pub-1683858134373419/7790106682',
-          interstitial:'ca-app-pub-9249695405712287/3927718795'
-      };
+          interstitial:'ca-app-pub-9249695405712287/3927718795',
+          rewardvideo: 'ca-app-pub-9249695405712287/2892626146'
+        };
   } else if(/(ipod|iphone|ipad)/i.test(navigator.userAgent)) { // for ios
   admobid = {
     banner: 'ca-app-pub-1683858134373419/7790106682', 
@@ -86,7 +87,8 @@ KeyboardInputManager.prototype.listen = function () {
       if (!AdMob) { alert('admob plugin not ready'); return; }
       initAd();
       //display interstitial at startup
-      loadInterstitial();
+      //loadInterstitial();
+      loadRewardedVideo();
   }
   function initAd() {
       var defaultOptions = {
@@ -126,6 +128,19 @@ KeyboardInputManager.prototype.listen = function () {
       {
         this.restart;      }
   }
+
+  function loadRewardedVideo() {
+    if ((/(android|windows phone)/i.test(navigator.userAgent))) {
+        AdMob.prepareRewardVideoAd({ adId: admobid.rewardvideo, isTesting: true, autoShow: true });
+        //document.getElementById("screen").style.display = 'none';     
+    } else if ((/(ipad|iphone|ipod)/i.test(navigator.userAgent))) {
+        //AdMob.prepareRewardVideoAd({ adId: admobid.rewardvideo, isTesting: true, autoShow: true });
+        this.restart;     
+    } else
+    {
+      this.restart;     
+  }
+}
 
   // Respond to button presses
   //this.bindButtonPress(".retry-button", this.restart);

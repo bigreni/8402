@@ -45,10 +45,10 @@
 		0894B953A38D4C31A9935E8F /* AdMobMediation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3262B194A19C4CFE9350609C /* AdMobMediation.m */; };
 		C5B34561B21848E0853921A7 /* CDVNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 40378A1C6B894E49BA3C3113 /* CDVNotification.m */; };
 		19E5445A82EE4D6B8E362B27 /* CDVNotification.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7CE92D0C782B4EBDBE5C972C /* CDVNotification.bundle */; };
-		8341F53EA2E14C9E8F28FC8E /* NativeStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFF2130C14448AC9AEA8DA8 /* NativeStorage.m */; };
-		0FAA0A4C08724A16A3B43E92 /* CDVAppRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD7D9139E584A01B5447A72 /* CDVAppRate.m */; };
 		B4E05CE3125C4959A272440B /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E6C9EEFBC404BA5047A2D /* CDVDevice.m */; };
 		303DBCFA56204A04AF766E7F /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D43B66A2F8543A48385C21B /* CDVLocation.m */; };
+		595F9C08629748AE9C67B72E /* NativeStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB1766E993C4B3E97309A92 /* NativeStorage.m */; };
+		349B1596675647B2A43728F1 /* CDVAppRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6833C9899D8741C0BED00520 /* CDVAppRate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,14 +133,14 @@
 		40378A1C6B894E49BA3C3113 /* CDVNotification.m */ = {isa = PBXFileReference; name = "CDVNotification.m"; path = "cordova-plugin-dialogs/CDVNotification.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 		F381F49A08B64E10A62D21DC /* CDVNotification.h */ = {isa = PBXFileReference; name = "CDVNotification.h"; path = "cordova-plugin-dialogs/CDVNotification.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		7CE92D0C782B4EBDBE5C972C /* CDVNotification.bundle */ = {isa = PBXFileReference; name = "CDVNotification.bundle"; path = "CDVNotification.bundle"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.plug-in; explicitFileType = undefined; includeInIndex = 0; };
-		EDFF2130C14448AC9AEA8DA8 /* NativeStorage.m */ = {isa = PBXFileReference; name = "NativeStorage.m"; path = "cordova-plugin-nativestorage/NativeStorage.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		EB909EBA625946518E3D67E5 /* NativeStorage.h */ = {isa = PBXFileReference; name = "NativeStorage.h"; path = "cordova-plugin-nativestorage/NativeStorage.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		7CD7D9139E584A01B5447A72 /* CDVAppRate.m */ = {isa = PBXFileReference; name = "CDVAppRate.m"; path = "cordova-plugin-apprate/CDVAppRate.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		AE249B8FFC27456193EE96B8 /* CDVAppRate.h */ = {isa = PBXFileReference; name = "CDVAppRate.h"; path = "cordova-plugin-apprate/CDVAppRate.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		1C0E6C9EEFBC404BA5047A2D /* CDVDevice.m */ = {isa = PBXFileReference; name = "CDVDevice.m"; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 		2EC30D0779A74C059E73C1F1 /* CDVDevice.h */ = {isa = PBXFileReference; name = "CDVDevice.h"; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		1D43B66A2F8543A48385C21B /* CDVLocation.m */ = {isa = PBXFileReference; name = "CDVLocation.m"; path = "cordova-plugin-geolocation/CDVLocation.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 		7F3BDDBD9C634C84AE8F15C5 /* CDVLocation.h */ = {isa = PBXFileReference; name = "CDVLocation.h"; path = "cordova-plugin-geolocation/CDVLocation.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		9DB1766E993C4B3E97309A92 /* NativeStorage.m */ = {isa = PBXFileReference; name = "NativeStorage.m"; path = "cordova-plugin-nativestorage/NativeStorage.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		895B74E3BA724F649C660FD1 /* NativeStorage.h */ = {isa = PBXFileReference; name = "NativeStorage.h"; path = "cordova-plugin-nativestorage/NativeStorage.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		6833C9899D8741C0BED00520 /* CDVAppRate.m */ = {isa = PBXFileReference; name = "CDVAppRate.m"; path = "cordova-plugin-apprate/CDVAppRate.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		2D717D442D864E7A9BEF11F4 /* CDVAppRate.h */ = {isa = PBXFileReference; name = "CDVAppRate.h"; path = "cordova-plugin-apprate/CDVAppRate.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -308,14 +308,14 @@
 				BF0E9E5EFBF74D68A8F2F8EF /* AdMobMediation.h */,
 				40378A1C6B894E49BA3C3113 /* CDVNotification.m */,
 				F381F49A08B64E10A62D21DC /* CDVNotification.h */,
-				EDFF2130C14448AC9AEA8DA8 /* NativeStorage.m */,
-				EB909EBA625946518E3D67E5 /* NativeStorage.h */,
-				7CD7D9139E584A01B5447A72 /* CDVAppRate.m */,
-				AE249B8FFC27456193EE96B8 /* CDVAppRate.h */,
 				1C0E6C9EEFBC404BA5047A2D /* CDVDevice.m */,
 				2EC30D0779A74C059E73C1F1 /* CDVDevice.h */,
 				1D43B66A2F8543A48385C21B /* CDVLocation.m */,
 				7F3BDDBD9C634C84AE8F15C5 /* CDVLocation.h */,
+				9DB1766E993C4B3E97309A92 /* NativeStorage.m */,
+				895B74E3BA724F649C660FD1 /* NativeStorage.h */,
+				6833C9899D8741C0BED00520 /* CDVAppRate.m */,
+				2D717D442D864E7A9BEF11F4 /* CDVAppRate.h */,
 			);
 			name = Plugins;
 			path = "2048 Free Eth/Plugins";
@@ -449,10 +449,10 @@
 				36AA1A3D9D1C40FC8E9755A4 /* CDVAdMobPlugin.m in Sources */,
 				0894B953A38D4C31A9935E8F /* AdMobMediation.m in Sources */,
 				C5B34561B21848E0853921A7 /* CDVNotification.m in Sources */,
-				8341F53EA2E14C9E8F28FC8E /* NativeStorage.m in Sources */,
-				0FAA0A4C08724A16A3B43E92 /* CDVAppRate.m in Sources */,
 				B4E05CE3125C4959A272440B /* CDVDevice.m in Sources */,
 				303DBCFA56204A04AF766E7F /* CDVLocation.m in Sources */,
+				595F9C08629748AE9C67B72E /* NativeStorage.m in Sources */,
+				349B1596675647B2A43728F1 /* CDVAppRate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

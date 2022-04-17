@@ -12,9 +12,6 @@
       "PLAY_SERVICES_VERSION": "16.0.0",
       "PACKAGE_NAME": "com.games.twozerofoureight"
     },
-    "cordova-plugin-apprate": {
-      "PACKAGE_NAME": "com.games.twozerofoureight"
-    },
     "cordova-plugin-device": {
       "PACKAGE_NAME": "com.games.twozerofoureight"
     },
@@ -26,6 +23,9 @@
       "PACKAGE_NAME": "com.games.twozerofoureight"
     },
     "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.games.twozerofoureight"
+    },
+    "cordova-plugin-apprate": {
       "PACKAGE_NAME": "com.games.twozerofoureight"
     }
   },

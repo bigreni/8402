@@ -17,45 +17,6 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       ]
     },
     {
-      "id": "cordova-plugin-nativestorage.mainHandle",
-      "file": "plugins/cordova-plugin-nativestorage/www/mainHandle.js",
-      "pluginId": "cordova-plugin-nativestorage",
-      "clobbers": [
-        "NativeStorage"
-      ]
-    },
-    {
-      "id": "cordova-plugin-nativestorage.LocalStorageHandle",
-      "file": "plugins/cordova-plugin-nativestorage/www/LocalStorageHandle.js",
-      "pluginId": "cordova-plugin-nativestorage"
-    },
-    {
-      "id": "cordova-plugin-nativestorage.NativeStorageError",
-      "file": "plugins/cordova-plugin-nativestorage/www/NativeStorageError.js",
-      "pluginId": "cordova-plugin-nativestorage"
-    },
-    {
-      "id": "cordova-plugin-apprate.AppRate",
-      "file": "plugins/cordova-plugin-apprate/www/AppRate.js",
-      "pluginId": "cordova-plugin-apprate",
-      "clobbers": [
-        "AppRate",
-        "window.AppRate"
-      ]
-    },
-    {
-      "id": "cordova-plugin-apprate.locales",
-      "file": "plugins/cordova-plugin-apprate/www/locales.js",
-      "pluginId": "cordova-plugin-apprate",
-      "runs": true
-    },
-    {
-      "id": "cordova-plugin-apprate.storage",
-      "file": "plugins/cordova-plugin-apprate/www/storage.js",
-      "pluginId": "cordova-plugin-apprate",
-      "runs": true
-    },
-    {
       "id": "cordova-plugin-device.device",
       "file": "plugins/cordova-plugin-device/www/device.js",
       "pluginId": "cordova-plugin-device",
@@ -94,6 +55,45 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       "clobbers": [
         "navigator.geolocation"
       ]
+    },
+    {
+      "id": "cordova-plugin-nativestorage.mainHandle",
+      "file": "plugins/cordova-plugin-nativestorage/www/mainHandle.js",
+      "pluginId": "cordova-plugin-nativestorage",
+      "clobbers": [
+        "NativeStorage"
+      ]
+    },
+    {
+      "id": "cordova-plugin-nativestorage.LocalStorageHandle",
+      "file": "plugins/cordova-plugin-nativestorage/www/LocalStorageHandle.js",
+      "pluginId": "cordova-plugin-nativestorage"
+    },
+    {
+      "id": "cordova-plugin-nativestorage.NativeStorageError",
+      "file": "plugins/cordova-plugin-nativestorage/www/NativeStorageError.js",
+      "pluginId": "cordova-plugin-nativestorage"
+    },
+    {
+      "id": "cordova-plugin-apprate.AppRate",
+      "file": "plugins/cordova-plugin-apprate/www/AppRate.js",
+      "pluginId": "cordova-plugin-apprate",
+      "clobbers": [
+        "AppRate",
+        "window.AppRate"
+      ]
+    },
+    {
+      "id": "cordova-plugin-apprate.locales",
+      "file": "plugins/cordova-plugin-apprate/www/locales.js",
+      "pluginId": "cordova-plugin-apprate",
+      "runs": true
+    },
+    {
+      "id": "cordova-plugin-apprate.storage",
+      "file": "plugins/cordova-plugin-apprate/www/storage.js",
+      "pluginId": "cordova-plugin-apprate",
+      "runs": true
     }
   ];
   module.exports.metadata = {
@@ -101,10 +101,10 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "cordova-plugin-extension": "1.5.4",
     "cordova-plugin-admobpro": "2.49.0",
     "cordova-plugin-dialogs": "2.0.2",
-    "cordova-plugin-nativestorage": "2.3.2",
-    "cordova-plugin-apprate": "1.7.2",
     "cordova-plugin-device": "2.0.3",
     "cordova-plugin-geolocation": "4.1.0",
-    "cordova-plugin-whitelist": "1.3.4"
+    "cordova-plugin-whitelist": "1.3.4",
+    "cordova-plugin-nativestorage": "2.3.2",
+    "cordova-plugin-apprate": "1.7.2"
   };
 });

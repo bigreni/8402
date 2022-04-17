@@ -22,9 +22,6 @@
       "GPS_REQUIRED": "true",
       "PACKAGE_NAME": "com.games.twozerofoureight"
     },
-    "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.games.twozerofoureight"
-    },
     "cordova-plugin-apprate": {
       "PACKAGE_NAME": "com.games.twozerofoureight"
     }

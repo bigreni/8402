@@ -66,10 +66,6 @@
     <preference name="android-targetSdkVersion" value="30" />
     <preference name="android-installLocation" value="auto" />
     <preference name="StatusBarOverlaysWebView" value="false" />
-    <feature name="Whitelist">
-        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
-        <param name="onload" value="true" />
-    </feature>
     <feature name="NativeStorage">
         <param name="android-package" value="NativeStorage" />
     </feature>
